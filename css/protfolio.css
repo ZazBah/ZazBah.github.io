@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+}
+
+.name-jar{
+    width: 400px;
+    height: 400px;
+    background-color: #262626;
+    transform: translate(70%,0%);
+    border-radius: 0 0 50% 50% ;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,.5);
+    overflow: hidden;
+}
+.name-jar img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transform: translate(45%,10%);
+}
+.name-jar h1{
+    font-size: 50px;
+    font-family: Lucida Sans;
+    transform: translate(25%,0%);
+    cursor: default;
+    color: #808080;
+}
+.name-jar h2{
+    font-size: 20px;
+    font-family: monospace;
+    transform: translate(33.5%,0%);
+    cursor: default;
+    color: #808080;
+}
+
+
+.heading-left{
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    cursor: default;
+    text-align: left;
+    color: #808080;
+}
+.paragraph-left{
+    margin: 10px;
+    font-size: 20px;
+    font-family: monospace;
+    cursor: default;
+    text-align: left;
+    color: #808080;
+}
+
+.heading-right{
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    cursor: default;
+    text-align: right;
+    color: #808080;
+}
+.paragraph-right{
+    margin: 10px;
+    font-size: 20px;
+    font-family: monospace;
+    cursor: default;
+    text-align: right;
+    color: #808080;
+}
+.about-me{
+    width: 80%;
+    height: 200px;
+    float: left;
+    background-color: #262626;
+    border-radius: 0 50px 50px 0;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,.5);
+    transform: translate(0%,10%);
+    overflow: hidden;
+}
+.education{
+    width: 80%;
+    height: 200px;
+    float: right;
+    background-color: #262626;
+    border-radius: 50px 0 0 50px;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,.5);
+    transform: translate(0%,20%);
+    overflow: hidden;
+}
+.contact{
+    width: 80%;
+    height: 300px;
+    float: left;
+    background-color: #262626;
+    border-radius: 0 50px 50px 0 ;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,.5);
+    transform: translate(0%,20%);
+    overflow: hidden;    
+}
+.cjar{
+    height: 40px;
+    width: 100%;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.contact-icon{
+    height: 35%;
+    width: 60%;
+    display: flex;
+}
+.icn-btn{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 10px;
+    background-color: #808080;
+    box-shadow: 1px 4px 2px 2px rgba(0,0,0,.5);
+}
+.icn-btn i{
+    font-size: 30px;
+    line-height: 60px;
+    transition: all 0.3s linear;
+}
+.icn-btn:hover i{
+    transform: scale(1.4);
+}
+.fa-facebook-f{
+    color: #262626;
+}
+.fa-instagram{
+    color: #262626;
+}
+
+.skil{
+    width: 80%;
+    height: 400px;
+    float: right;
+    background-color: #262626;
+    border-radius:  50px 0 0 50px;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,.5);
+    transform: translate(0%,20%);
+    list-style: none;
+    overflow: hidden;
+}
+.skills{
+    float: right;
+    width: 60%;
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: monospace;
+    color: #808080;
+}
+.skills h3{
+    text-align: right;
+    cursor: default;
+}
+.bar{
+    background: #1a1a1a;
+    display: block;
+    height: 5px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    overflow: hidden;
+}
+.bar span{
+    height: 5px;
+    float: left;
+    background: #000000;
+}
+.html{
+    width: 50%;
+}
+.css{
+    width: 30%;
+}
+.javascript{
+    width: 10%;
+}
+.pythone{
+    width: 5%;
+}
+.project{
+    width: 80%;
+    height: 200px;
+    float: left;
+    background-color: #262626;
+    border-radius: 0 50px 50px 0 ;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,.5);
+    transform: translate(0%,50%);
+    overflow: hidden;
+}
+.btn{
+    padding: 5px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #808080;
+    color: #262626;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    box-shadow: 1px 2px 4px 2px rgba(0,0,0,.5);
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 1024px){
+    .name-jar{
+        transform: translate(75%,0%);
+    }
+}
+
+@media only screen and (min-width: 1025px){
+    .name-jar{
+        transform: translate(110%,0%);
+    }
+}
